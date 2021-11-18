@@ -15,7 +15,7 @@ using the following R command:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Jintong1997/Jintongpackage")
+devtools::install_github("Jintong1997/Jintongpackage/Normalize")
 ```
 
 ## Example
