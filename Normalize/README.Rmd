@@ -26,7 +26,7 @@ normala is not yet on CRAN. But you can download it from this repository using t
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Jintong1997/Jintongpackage")
+devtools::install_github("Jintong1997/Jintongpackage/Normalize")
 ```
 ## Example
 
