@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Normalize
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of Normalize is to normalize different data.
+
+## Installation
+
+normala is not yet on CRAN. But you can download it from this repository using the following R command:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Jintong1997/Jintongpackage")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(Normalize)
+normala(1:22)
+```
+
+

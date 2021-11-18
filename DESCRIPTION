@@ -1,0 +1,21 @@
+Package: Normalize
+Title: normalize vectors
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jintong",
+           family = "Yan",
+           role = c("aut", "cre"),
+           email = "yanjintong@outlook.com",
+           )
+Description: This package is used to normalize different data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    base,
+    stats
