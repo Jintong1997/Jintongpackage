@@ -27,5 +27,6 @@ normala<-function(x,na.rm=FALSE){
    "This is not a numeric, the class is: ",
    base::class(x))
  }
- (x-base::mean(x,na.rm=na.rm))/stats::sd(x,na.rm=na.rm)
+ result<-(x-base::mean(x,na.rm=na.rm))/stats::sd(x,na.rm=na.rm)
+ return(result)
 }
